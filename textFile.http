@@ -1,0 +1,20 @@
+POST http://127.0.0.1:5000//orderAdd
+content-type: application/json
+
+{
+    "date":"9/02/2020"
+}
+
+###
+POST http://127.0.0.1:5000//paymentAdd
+content-type: application/json
+
+{
+    "amount":"20000"
+}
+
+###
+GET http://127.0.0.1:5000//order
+
+###
+GET http://127.0.0.1:5000//order
